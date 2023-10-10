@@ -1,0 +1,143 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "AmitAnandResume.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I am a <span class='underline'>Software Development Engineer</span> with a foundation in <span class='underline'>Angular</span> and <span class='underline'>Python</span>, experienced in <span class='underline'>Machine Learning</span> and <span class='underline'>Computer Vision</span>. With a commitment to crafting innovative solutions, I bring hands-on experience to the field. I am dedicated to <span class='underline'>writing clean, scalable code,</span> drawing inspiration from best practices. My passion for <span class='underline'>creating seamless systems</span> drives my pursuit of excellence as I contribute to the digital landscape.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "Hello, I'm Amit Anand, a budding software developer engineer with a dual passion for <span class='underline'>Frontend Design</span> and <span class='underline'>Machine Learning</span>. I've honed my skills in crafting user-friendly interfaces that merge seamlessly with advanced tech. Additionally, I've delved into machine learning, gaining insights into data-driven solutions and algorithms.",
+    "Some of the technologies that I have trained and worked on include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "FMR LLC",
+      "Title": "Frontend Developer",
+      "Date": "June 2023 - August 2023",
+      "Description": [
+        "Worked with a team of 5 interns to develop NextGen UI platform with the capability to support the workflows and interactions of operations associates in support of the brokerage and trading businesses.",
+        "Reduced processing time from 8-10 minutes to 2-3 minutes within 4 weeks.",
+        "Reduced IRA document processing clicks from 100s to 10s, enhancing efficiency.",
+        "Achieved 60-70% processing time reduction through enhanced workstation.",
+        "Presented project outcomes to business team and industry head, highlighting benefits."
+      ]
+    },
+    {
+      "Tab": "CodeChef SRM",
+      "Title": "Competitive Domain Team Lead",
+      "Date": "October 2022 - Present",
+      "Description": [
+        "Taught members the nuances of competitive programming, resulting in improved performance in coding competitions.",
+        "Conducted several hands-on demonstrations on the college grounds, showcasing practical skills to a diverse audience.",
+        "Facilitated practical learning experiences, allowing for better understanding of competitive programming concepts.",
+        "Attained a participation rate of 85% in the practical demonstrations.",
+        "Received positive feedback from 95% of participants on the effectiveness of the demonstrations."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Cyclistic Bike Data Analysis",
+      "Description": "Cyclistic, a bike-sharing company, has provided data on bike rides taken by its customers. The goal of this project is to <span class='underline'>analyze the data, gain insights into customer behavior</span>, and provide <span class='underline'>actionable recommendations</span> to improve Cyclistic's bike-sharing service.",
+      "imgs": [
+        "assets/images/CaseStudy/CaseStudy1.png",
+        "assets/images/CaseStudy/CaseStudy2.png",
+        "assets/images/CaseStudy/CaseStudy3.png"
+      ],
+      "ghLink": "https://github.com/Karma0o7/Case-Study-How-Does-a-Bike-Share-Navigate-Speedy-Success",
+      "demoLink": "https://rpubs.com/Karma0o7/Case_Study1",
+      "Technologies": ["R", "RStudio", "Time-Series Analysis", "Statistical Analysis"]
+    },
+    {
+      "Title": "ChartView",
+      "Description": "During the Data Science Hack'22 hackathon, we developed a web application that allows users to view <span class='underline'>Cryptocurrency Graphs</span> and details for the top cryptocurrencies, as well as a <span class='underline'>Full Chart</span> for the <span class='underline'>Top 100 Cryptocurrencies</span> within 48hrs.",
+      "imgs": [
+        "assets/images/chartview/chartview1.png",
+        "assets/images/chartview/chartview3.png",
+        "assets/images/chartview/chartview2.png"
+      ],
+      "ghLink": "https://github.com/Karma0o7/ChartView",
+      "demoLink": "https://chartview.onrender.com/",
+      "Technologies": ["EJS", "Bootstrap", "Node.js", "Express.js", "MongoDB"]
+    },
+    {
+      "Title": "Flappy Bird NEAT",
+      "Description": "The classic game of Flappy Bird implemented using Python and the Statistical AnalysisNEAT (NeuroEvolution of Augmenting Topologies) algorithm</span>. NEAT is an evolutionary algorithm that evolves <span class='underline'>neural networks</span> to perform tasks, and in this case, it's used to teach birds to navigate through a series of pipes.",
+      "imgs": ["assets/images/FlappyBirdAI/flappyBird1.gif"],
+      "ghLink": "https://github.com/Karma0o7/Flappy-Bird-AI",
+      "Technologies": ["Python", "Pygame", "NEAT-Python"]
+    },
+    {
+      "Title": "Maze Solver",
+      "Description": "The <span class='underline'>Maze Solver</span> is a Python program designed to tackle one of the classic challenges in computer science: <span class='underline'>finding a path through a maze</span>. This program excels at solving mazes represented in a text file format, employing a variety of search algorithms to efficiently navigate from the start ('A') to the goal ('B') in the maze. What sets this project apart is its ability to not only solve mazes but also <span class='underline'>visualize the process</span>",
+      "imgs": [
+        "assets/images/BFSVisualizer/BFSVisualizer1.png",
+        "assets/images/BFSVisualizer/BFSVisualizer2.png",
+        "assets/images/BFSVisualizer/BFSVisualizer3.png"
+      ],
+      "ghLink": "https://github.com/Karma0o7/DFS-Visualizer",
+      "Technologies": ["Python", "Pillow", "Search Algorithms"]
+    },
+    {
+      "Title": "Airline Performance Dashboard",
+      "Description": "This is an interactive dashboard for analyzing and visualizing US domestic airline flight performance data. The dashboard allows users to explore various aspects of airline performance, including flight cancellations, delays, and more.",
+      "imgs": [
+        "assets/images/PlotlyDash/PlotlyDash1.png",
+        "assets/images/PlotlyDash/PlotlyDash2.png",
+        "assets/images/PlotlyDash/PlotlyDash3.png"
+      ],
+      "ghLink": "https://github.com/Karma0o7/Plotly-Dash",
+      "Technologies": ["Python", "Dash", "Pandas", "Plotly"]
+    }
+  ],
+
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Image Classification",
+      "Description": "This project implements logistic regression for image classification using Python. The goal is to predict whether a given image contains a cat or not.",
+      "ghLink": "https://github.com/Karma0o7/Image-Recognition-Using-Logestic-Regression-Cat-vs-Non-Cat",
+      "Technologies": ["Python", "NumPy", "Matplotlib", "SciPy"]
+    },
+    {
+      "Title": "Color Detection and Drawing",
+      "Description": "This project involves real-time color detection and drawing using Python and OpenCV. It captures video and detects specific colors in the video stream. When these colors are detected, the program draws colored points on a canvas, creating a fun interactive experience.",
+      "ghLink": "https://github.com/Karma0o7/Virtual-Paint-Using-OpenCV",
+      "Technologies": ["Python", "OpenCV", "NumPy"]
+    },
+    {
+      "Title": "Hand Tracking Using OpenCV",
+      "Description": "This project consists of a hand tracking module that tracks a hand in a video stream and detects the landmarks on the hand using OpenCV and Mediapipe. It is designed to provide valuable information for gesture recognition, sign language interpretation, and other applications.",
+      "ghLink": "https://github.com/Karma0o7/Hand-Tracking-Using-OpenCV",
+      "Technologies": ["Python", "OpenCV", "Mediapipe"]
+    },
+    {
+      "Title": "Photo Filter",
+      "Description": "This is a simple command-line image processing tool that allows you to apply various filters to BMP image files. It is written in C and provides multiple filters",
+      "ghLink": "https://github.com/Karma0o7/PhotoFilter-Using-C",
+      "Technologies": ["C Programming", "BMP File Handling", "CLI"]
+    },
+    {
+      "Title": "Simon Game React App",
+      "Description": "This is a simple Simon game implemented as a React application. The Simon game is a memory game where players must remember and repeat a sequence of colors. ",
+      "ghLink": "https://github.com/Karma0o7/simon-game",
+      "demoLink": "https://simon-game07.netlify.app/",
+      "Technologies": ["React", "JavaScript", "CSS"]
+    }
+  ],
+  "Contact.Pretitle": "And, Finally",
+  "Contact.Title": "Let's Connect!",
+  "Contact.Content": "I would welcome the opportunity to connect with you regarding potential new opportunities. Please feel free to reach out, and I will promptly respond upon receiving your message.",
+  "Contact.Btn": "Say Hello"
+}
